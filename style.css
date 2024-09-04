@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+*{
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containner{
+    max-width: 720px;
+    height: auto;
+    background-color: white;
+    border: 1px solid #16423C;
+    border-radius: 10px;
+    padding: 10px;
+}
+body{
+    background-color: #6A9C89;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    padding: 10px;
+}
+img{
+    height: auto;
+    max-width: 675px;
+    border-radius: 20px;
+    border:2px white;
+}
+.main-box{
+    padding: 1px;
+    margin-left: 10px;
+    background: #C4DAD2;
+    border-radius: 10px;
+    max-width: 675px;
+    padding-left: 10%;
+}
+.main{
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.box1{
+    margin-left: 20px;
+}
+hr{
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+@media only screen and (max-width:600px) {
+
+    img{
+        max-width: 275px;
+    }
+
+    .main-box{
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (min-width:601px) and (max-width:720px) {
+
+    img{
+        max-width: 555px;
+    }
+    .main-box{
+        margin-right: 10px;
+    }
+
+}
