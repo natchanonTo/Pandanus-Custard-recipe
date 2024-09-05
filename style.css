@@ -25,7 +25,8 @@ body{
 }
 img{
     height: auto;
-    max-width: 675px;
+    max-width: 100%;
+    width: 675px;
     border-radius: 20px;
     border:2px white;
 }
@@ -45,26 +46,27 @@ img{
     margin-left: 20px;
 }
 hr{
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.attribution{
+    font-size: 11px; text-align: center;
+
+}
+.list{
+    padding-left: 5px;
 }
 
 @media only screen and (max-width:600px) {
 
-    img{
-        max-width: 275px;
-    }
-
     .main-box{
         margin-right: 10px;
     }
+
 }
 
 @media only screen and (min-width:601px) and (max-width:720px) {
 
-    img{
-        max-width: 555px;
-    }
     .main-box{
         margin-right: 10px;
     }
